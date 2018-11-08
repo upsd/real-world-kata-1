@@ -12,17 +12,17 @@ Starting with a new acceptance test (see [the first acceptance test](src/test/ja
 the features described here. They are intentionally vague as to give you some freedom.
 
 ### Feature #1 - User not found
-You need to implement the scenario when someone requests a user that does not exist. For example, there are no users
-and someone makes the following request: `/users/12`.
+You need to implement the scenario when a client requests a user that does not exist. For example, there are no users
+and a client requests a user with an of 12.
 
 ### Feature #2 - Get all users
-When someone visits `/users/` you should return all users found.
+When a client requests all users, you must return all user found.
 
 ### Feature #3 - Add a user
-Add the ability for someone to add a user via the API.
+Add the ability for a client to add a user via the API.
 
 ### Feature #4 - Delete a user
-Enable users of the API to remove users.
+Enable clients of the API to remove users.
 
 ### Feature #5 - Search for user by name
-Enable users of the API to search for users using their name.
+Enable clients of the API to search for users using their name.
