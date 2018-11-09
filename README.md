@@ -13,16 +13,16 @@ the features described here. They are intentionally vague as to give you some fr
 
 ### Feature #1 - User not found
 You need to implement the scenario when a client requests a user that does not exist. For example, there are no users
-and a client requests a user with an of 12.
+and a client requests a user with an ID of 12.
 
 ### Feature #2 - Get all users
-When a client requests all users, you must return all user found.
+When a client requests all users, you must return all users found.
 
 ### Feature #3 - Add a user
 Add the ability for a client to add a user via the API.
 
 ### Feature #4 - Delete a user
-Enable clients of the API to remove users.
+Enable clients of the API to delete a user.
 
 ### Feature #5 - Search for user by name
 Enable clients of the API to search for users using their name.
