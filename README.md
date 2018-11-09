@@ -26,3 +26,8 @@ Enable clients of the API to delete a user.
 
 ### Feature #5 - Search for user by name
 Enable clients of the API to search for users using their name.
+
+## Running the tests
+To run the tests, execute the below in a terminal of your choice at the root of the project:
+
+    $ ./gradlew check
