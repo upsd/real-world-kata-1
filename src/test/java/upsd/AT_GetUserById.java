@@ -1,6 +1,6 @@
 package upsd;
 
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import upsd.api.Server;
 import upsd.domain.User;
@@ -11,10 +11,10 @@ import static org.hamcrest.CoreMatchers.is;
 
 public class AT_GetUserById {
 
-    private UserRepository userRepository;
+    private static UserRepository userRepository;
 
-    @Before
-    public void setUp() {
+    @BeforeClass
+    public static void setUp() {
         userRepository = new UserRepository();
         new Server(userRepository).startOn(8080);
     }
