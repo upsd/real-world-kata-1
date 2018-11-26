@@ -18,3 +18,13 @@ dependencies {
     compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
     compile group: 'com.eclipsesource.minimal-json', name: 'minimal-json', version: '0.9.1'
 }
+
+test {
+    println 'Running acceptance and unit tests'
+    include '*/controllers/*'
+    include '*/repositories/*'
+    include '*/AcceptanceTestSuite.class'
+    testLogging {
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+}
